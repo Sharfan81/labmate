@@ -42,7 +42,7 @@ LabMate is an AI-powered vision chatbot that analyzes medical lab reports, such 
    pip install -r requirements.txt
    ```
 
-4. Configure your required API keys in a `.env` file, following the project's environment variable requirements.
+4. Configure your required API keys in a `.toml` file, following the project's environment variable requirements.
 
 5. Start the application using the appropriate command for your framework.
 
