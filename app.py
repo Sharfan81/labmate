@@ -15,7 +15,7 @@ GMAIL_APP_PASSWORD = st.secrets["GMAIL_APP_PASSWORD"]
 def get_gemini_client():
     return genai.Client(api_key = GEMINI_API_KEY)
 gemini_client = get_gemini_client()
-MODEL_NAME = "gemini-3.7-flash"
+MODEL_NAME = "gemini-3.5-flash"
 
 def render_message(message):
     with st.chat_message(message["role"]):
